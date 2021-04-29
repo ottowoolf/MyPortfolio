@@ -25,7 +25,7 @@ const projects = [
     icon1: "Code",
     icon2: "Website",
     image: otis,
-    title: "C# and ASP.NET",
+    title: "TJO Restaurant",
     description:
       "Restaurant Reservation System built in C# with ASP.NET MVC and Entity Framework.",
   },
