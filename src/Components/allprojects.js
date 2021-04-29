@@ -1,10 +1,10 @@
-import waves from "../img/projectsimg/waves.jpg";
-import otis from "../img/projectsimg/Otis.png";
-import ottomation from "../img/projectsimg/Ottomation.png";
-import sorrento from "../img/projectsimg/sorrento.png";
-import myportfolio from "../img/projectsimg/myportfolio.png";
+import waves from "../img/projectsimg/waves-min.jpg";
+import otis from "../img/projectsimg/Otis-min.png";
+import ottomation from "../img/projectsimg/Ottomation-min.png";
+import sorrento from "../img/projectsimg/sorrento-min.png";
+import myportfolio from "../img/projectsimg/myportfolio-min.png";
 import focus from "../img/projectsimg/Focus.png";
-import order from "../img/projectsimg/OrderManagementSystem.png";
+import order from "../img/projectsimg/OrderManagementSystem-min.png";
 
 const projects = [
   {
