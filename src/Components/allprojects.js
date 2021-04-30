@@ -9,8 +9,8 @@ import order from "../img/projectsimg/OrderManagementSystem-min.png";
 const projects = [
   {
     id: 1,
-    link1: "www.github.com",
-    link2: "www.website.com",
+    link1: "https://github.com/ottowoolf/Waves-Clothing",
+    link2: "https://waves-clothing.herokuapp.com/",
     icon1: "Code",
     icon2: "Website",
     image: waves,
