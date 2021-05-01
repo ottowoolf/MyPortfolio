@@ -13,30 +13,33 @@ function App() {
   const navClick = () => {
     setNavToggle(!navToggle);
   };
+  const sidebarOff = () => {
+    setNavToggle(false);
+  };
 
   return (
-    <div className='App'>
+    <div className="App">
       <div className={`sidebar ${navToggle ? "nav-toggle" : ""}`}>
-        <NavBar />
+        <NavBar sidebarOff={sidebarOff} />
       </div>
-      <div className='nav-btn' onClick={navClick}>
-        <div className='lines-1'></div>
-        <div className='lines-2'></div>
-        <div className='lines-3'></div>
+      <div className="nav-btn" onClick={navClick}>
+        <div className="lines-1"></div>
+        <div className="lines-2"></div>
+        <div className="lines-3"></div>
       </div>
-      <div className='main-content'>
-        <div className='content'>
+      <div className="main-content">
+        <div className="content">
           <Switch>
-            <Route path='/' exact>
+            <Route path="/" exact>
               <HomePage />
             </Route>
-            <Route path='/about' exact>
+            <Route path="/about" exact>
               <AboutPage />
             </Route>
-            <Route path='/projects' exact>
+            <Route path="/projects" exact>
               <PortfliosPage />
             </Route>
-            <Route path='/contact' exact>
+            <Route path="/contact" exact>
               <ContactPage />
             </Route>
           </Switch>
