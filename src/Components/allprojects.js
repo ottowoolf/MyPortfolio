@@ -4,6 +4,7 @@ import ottomation from "../img/projectsimg/Ottomation-min.png";
 import sorrento from "../img/projectsimg/sorrento-min.png";
 import myportfolio from "../img/projectsimg/myportfolio-min.png";
 import focus from "../img/projectsimg/Focus.png";
+import employees from "../img/projectsimg/Employees.png";
 import order from "../img/projectsimg/OrderManagementSystem-min.png";
 
 const projects = [
@@ -74,10 +75,20 @@ const projects = [
   {
     id: 7,
     link1: "www.github.com",
+    link2: "otman-o.com",
+    icon1: "https://github.com/ottowoolf/MyPortfolio",
+    icon2: "Website",
+    image: myportfolio,
+    title: "My Portfolio",
+    description: "Portfolio Website built with React",
+  },
+  {
+    id: 8,
+    link1: "https://github.com/ottowoolf/Employees",
     link2: "www.github.com",
     icon1: "Code",
     icon2: "Website",
-    image: myportfolio,
+    image: employees,
     title: "My Portfolio",
     description: "Portfolio Website built with React",
   },
