@@ -74,9 +74,9 @@ const projects = [
   },
   {
     id: 7,
-    link1: "www.github.com",
+    link1: "https://github.com/ottowoolf/MyPortfolio",
     link2: "otman-o.com",
-    icon1: "https://github.com/ottowoolf/MyPortfolio",
+    icon1: "Code",
     icon2: "Website",
     image: myportfolio,
     title: "My Portfolio",
