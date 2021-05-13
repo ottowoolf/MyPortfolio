@@ -85,7 +85,7 @@ const projects = [
   {
     id: 8,
     link1: "https://github.com/ottowoolf/Employees",
-    link2: "www.github.com",
+    link2: "https://contractors.netlify.app/",
     icon1: "Code",
     icon2: "Website",
     image: employees,
