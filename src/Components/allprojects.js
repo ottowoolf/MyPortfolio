@@ -21,12 +21,12 @@ const projects = [
   },
   {
     id: 2,
-    link1: "www.github.com",
-    link2: "www.github.com",
+    link1: "https://dev.azure.com/OtmanO/MyRestaurant/_versionControl",
+    link2: "https://my-restaurant.azurewebsites.net/",
     icon1: "Code",
     icon2: "Website",
     image: otis,
-    title: "TJO Restaurant",
+    title: "TeeJO Restaurant",
     description:
       "Restaurant Reservation System built in C# with ASP.NET MVC and Entity Framework.",
   },
@@ -89,8 +89,8 @@ const projects = [
     icon1: "Code",
     icon2: "Website",
     image: employees,
-    title: "My Portfolio",
-    description: "Portfolio Website built with React",
+    title: "Employee Search",
+    description: "Simple app that filters employees records fetched from an API",
   },
 ];
 
