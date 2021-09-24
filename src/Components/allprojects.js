@@ -21,7 +21,7 @@ const projects = [
   },
   {
     id: 2,
-    link1: "https://dev.azure.com/OtmanO/MyRestaurant/_versionControl",
+    link1: "https://dev.azure.com/OtmanO/MyRestaurant",
     link2: "https://my-restaurant.azurewebsites.net/",
     icon1: "Code",
     icon2: "Website",

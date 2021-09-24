@@ -28,7 +28,7 @@ function ImageSection() {
         <br />
         <a
           type="button"
-          href="https://drive.google.com/file/d/1hoFD1FyvpFHcRK7zOOqMZDpbwozOKqwN/view?usp=sharing"
+          href="https://drive.google.com/file/d/1M0x1XUkmYWzU3hohPbI16ul9vUlLAy1w/view?usp=sharing"
           className="btn"
           rel="noreferrer"
           target="_blank"
