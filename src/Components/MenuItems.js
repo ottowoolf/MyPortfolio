@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 function MenuItems({ menuItem }) {
   return (
@@ -22,10 +22,10 @@ function MenuItems({ menuItem }) {
             <h5>{item.title}</h5>
             <p>{item.description}</p>
           </div>
-        );
+        )
       })}
     </div>
-  );
+  )
 }
 
-export default MenuItems;
+export default MenuItems

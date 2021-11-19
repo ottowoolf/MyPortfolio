@@ -17,10 +17,10 @@
       &::before {
         content: "";
         position: absolute;
-        top: 12px;
-        left: 15px;
-        height: calc(100% - 30px);
-        width: calc(100% - 30px);
+        top: 30px;
+        left: 30px;
+        height: calc(100% - 60px);
+        width: calc(100% - 60px);
 
         background-color: #92a5c93f;
         border-radius: 5px;
@@ -56,9 +56,13 @@
             font-weight: 500;
             border-radius: 5px;
             background-color: #e4e9ece7;
-            color: rgba(0, 0, 0, 0.534);
+            color: #517294;
             &:not(:last-child) {
               margin-right: 2rem;
+            }
+            &:hover {
+              background-color: #51729467;
+              color: white;
             }
           }
         }
@@ -75,13 +79,9 @@
 
     h5 {
       font-size: 1.7rem;
-      font-weight: 400;
-      color: white;
+      font-weight: 700;
+      color: #517294;
       transition: all 0.3s ease-in-out;
-      &:hover {
-        color: #517294;
-        cursor: pointer;
-      }
     }
   }
 }
