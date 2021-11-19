@@ -1,11 +1,9 @@
-import waves from "../img/projectsimg/waves-min.jpg";
-import otis from "../img/projectsimg/Otis-min.png";
-import ottomation from "../img/projectsimg/Ottomation-min.png";
-import sorrento from "../img/projectsimg/sorrento-min.png";
-import myportfolio from "../img/projectsimg/myportfolio-min.png";
-import focus from "../img/projectsimg/Focus.png";
-import employees from "../img/projectsimg/Employees.png";
-import order from "../img/projectsimg/OrderManagementSystem-min.png";
+import waves from "../img/projectsimg/waves-min.jpg"
+import otis from "../img/projectsimg/Otis-min.png"
+import ottomation from "../img/projectsimg/Ottomation-min.png"
+import myportfolio from "../img/projectsimg/myportfolio-min.png"
+import employees from "../img/projectsimg/Employees.png"
+import order from "../img/projectsimg/OrderManagementSystem-min.png"
 
 const projects = [
   {
@@ -52,27 +50,6 @@ const projects = [
     description: "Simple Website with HTML, CSS & Bootstrap.",
   },
   {
-    id: 5,
-    link1: "https://github.com/ottowoolf/Sorrento_by_the_sea",
-    link2: "https://sorrento.netlify.app",
-    icon1: "Code",
-    icon2: "Website",
-    image: sorrento,
-    title: "Sorrento By The Sea",
-    description:
-      "Simple holiday appartement Website built with HTML, CSS, JS & Bootstrap",
-  },
-  {
-    id: 6,
-    link1: "https://github.com/ottowoolf/LetsFocus",
-    link2: "www.github.com",
-    icon1: "Code",
-    icon2: "App",
-    image: focus,
-    title: "Let's Focus",
-    description: "Simple React-Native app to focus on tasks",
-  },
-  {
     id: 7,
     link1: "https://github.com/ottowoolf/MyPortfolio",
     link2: "otman-o.com",
@@ -90,8 +67,9 @@ const projects = [
     icon2: "Website",
     image: employees,
     title: "Employee Search",
-    description: "Simple app that filters employees records fetched from an API",
+    description:
+      "Simple app that filters employees records fetched from an API",
   },
-];
+]
 
-export default projects;
+export default projects

@@ -22,8 +22,8 @@
         height: calc(100% - 30px);
         width: calc(100% - 30px);
 
-        background-color: #92a5c9;
-        border-radius: 10px;
+        background-color: #92a5c93f;
+        border-radius: 5px;
 
         transform-origin: center;
         transform: scale(0);
@@ -37,7 +37,7 @@
         height: 40vh;
         object-fit: fill;
         border: 8px solid white;
-        border-radius: 10px;
+        border-radius: 5px;
       }
 
       .hover-items {
@@ -53,9 +53,10 @@
             padding: 1rem;
             text-decoration: none;
             font-family: inherit;
-            border-radius: 10px;
-            background-color: #6b839b;
-            color: white;
+            font-weight: 500;
+            border-radius: 5px;
+            background-color: #e4e9ece7;
+            color: rgba(0, 0, 0, 0.534);
             &:not(:last-child) {
               margin-right: 2rem;
             }

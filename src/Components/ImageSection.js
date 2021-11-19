@@ -1,5 +1,5 @@
-import React from "react";
-import about from "../img/about.jpg";
+import React from "react"
+import about from "../img/about.jpg"
 
 function ImageSection() {
   return (
@@ -22,7 +22,7 @@ function ImageSection() {
             <p>: 36</p>
             <p>: Moroccan</p>
             <p>: English, Spanish, French, Arabic</p>
-            <p>: 173 Lilyfield Rd Sydney 2040</p>
+            <p>: Brisbane</p>
           </div>
         </div>
         <br />
@@ -38,7 +38,7 @@ function ImageSection() {
         </a>
       </div>
     </div>
-  );
+  )
 }
 
-export default ImageSection;
+export default ImageSection
